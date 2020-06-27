@@ -1,0 +1,58 @@
+
+
+body{
+    height: 100vh;
+}
+
+/********* NAVBAR STYLES *********/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  /* width: 90%; */
+  height: 80px;
+
+  padding: 0 80px;
+
+  background-color: hsl(0, 0%, 0%);
+ 
+}
+
+.nav-links{
+    display: flex;
+}
+
+.logo-container {
+    color: white;
+}
+
+.globe-icon-container {
+  display: flex;
+  align-items: center;
+    
+  /* padding: 12px; */
+
+  color: white;
+}
+
+.globe-icon  {
+  margin-right: 5px;
+}
+
+.nav-help {
+    padding: 0 16px;
+
+    text-decoration: none;
+    color: white ;
+}
+
+.nav-sign-up--link {
+    /* padding: 0 16px; */
+
+    text-decoration: none;
+    color: white ;
+}
+
+/********* HERO IMAGE *********/
