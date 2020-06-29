@@ -42,10 +42,18 @@ nav {
 }
 
 .nav-help {
-    padding: 0 16px;
+    padding: 0px 16px;
 
     text-decoration: none;
     color: white ;
+    /* background-color: green; */
+
+}
+
+.nav-help:hover {
+background-color: rgb(50,50,50);
+/* background-color:white; */
+
 }
 
 .nav-sign-up--link {
@@ -55,4 +63,70 @@ nav {
     color: white ;
 }
 
-/********* HERO IMAGE *********/
+/********* HERO SECTION *********/
+
+.hero-section__summary{
+    display: flex;
+    
+}
+
+
+.hero-section__summary__heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section__summary__heading-info__heading {
+
+    font-size: 32px;
+    line-height: 36px;
+
+}
+
+.hero-section__summary__heading-info__subheading {
+
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.hero-section__summary__heading-info__reviews {
+
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+
+}
+
+.hero-section__summary__heading-info__tags {
+
+    display: flex;
+
+
+
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+
+    text-decoration: none;
+
+}
+
+.hero-section__summary__heading-info__tags__link-container {
+
+    margin: 0 5px 0 0;
+    padding: 6px 8px;
+
+    border-radius: 4px;
+    text-decoration: none;
+
+
+    color: white;
+    background-color: #323232;
+    
+
+}
+
+.hero-section__summary__heading-info__tags__link-container:hover{
+    text-decoration: underline;
+}
