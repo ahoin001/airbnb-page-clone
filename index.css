@@ -1,10 +1,8 @@
 
 
-body{
-    height: 100vh;
-}
-
-/********* NAVBAR STYLES *********/
+/*********  ********* ********* ********* *********
+                NAVBAR STYLES
+ ********* ********* ********* ********* *********/
 
 nav {
   display: flex;
@@ -129,4 +127,13 @@ background-color: rgb(50,50,50);
 
 .hero-section__summary__heading-info__tags__link-container:hover{
     text-decoration: underline;
+}
+
+.hero-section__summary__subheading {
+ 
+    display: flex;
+    flex-direction: column;
+
+
+
 }
