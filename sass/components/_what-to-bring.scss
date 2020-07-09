@@ -1,0 +1,39 @@
+.what-to-bring-section {
+
+  margin-top: 40px;
+  
+  display: flex;
+  justify-content: center;
+
+  &__heading-container {
+    flex:1;
+
+    margin-right: auto;
+
+  }
+
+  &__list-container__list {
+    
+    flex:2;
+
+    
+    &__item {
+      display: flex;
+      align-items: center;
+
+      padding: 24px 0;
+
+      border-bottom: 1px solid #ebebeb;
+
+      p {
+        font-size: 17px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .checkmark-svg-container {
+    margin-right: 16px;
+  }
+
+}

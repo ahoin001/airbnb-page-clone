@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+}
+
+header {
+  padding: 40px;
+
+  color: white;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.section-header {
+  position: sticky;
+  top: 80px;
+
+  padding-bottom: 60px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45.76px;
+}
+
+.sub-headings {
+  padding-top: 8px;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  line-height: 26px;
+}
+
+.sections-container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}

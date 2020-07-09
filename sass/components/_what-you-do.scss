@@ -1,0 +1,26 @@
+.what-you-do-section {
+  
+  display: flex;
+  justify-content: center;
+
+  margin-top: 64px;
+
+  &__title-container {
+    flex: 1;
+
+    padding-top: 32px;
+
+  }
+
+  &__content-container {
+    
+    
+    flex: 2;
+    
+    white-space: pre-wrap;
+
+
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

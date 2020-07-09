@@ -1,0 +1,55 @@
+.your-host-section {
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+
+  &__heading-container {
+    flex: 1;
+
+    padding-top: 20px;
+  }
+
+  &__the-host-container {
+    flex: 2;
+
+    padding-top: 20px;
+
+    &__profile-pic {
+      border-radius: 50%;
+    }
+
+    &__header {
+      margin-top: 32px;
+      margin-bottom: 8px;
+
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+
+    &__content-body {
+      white-space: pre-line;
+
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  &__contact-host-bttn-container {
+    margin-top: 32px;
+    padding: 10px 22px;
+
+    background: transparent;
+
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #008489;
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #008489;
+  }
+}
